@@ -1,7 +1,7 @@
 import static org.junit.Assert.*;
 import org.junit.*;
 import basket.*;
-
+import product_type.*;
 
 public class CustomerTest {
 
@@ -10,11 +10,10 @@ public class CustomerTest {
     Customer customer = new Customer("Dave");
   }
 
-
-@Test
-public void canGetName() {
-  assetEquals("Dave", customer.getName());
-}
+  @Test
+  public void canGetName() {
+    assetEquals("Dave", customer.getName());
+  }
 
 
 }

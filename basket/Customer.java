@@ -1,4 +1,5 @@
 package basket;
+package product_type;
 import java.util.*;
 
 public class Customer {
