@@ -13,5 +13,5 @@ public class GfxCard extends Product implements Productible {
   public String getGfxCardBrand() {
     return this.brand;
   }
- 
+  
 }

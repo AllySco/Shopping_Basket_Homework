@@ -4,9 +4,17 @@ import basket.*;
 
 public class ShoppingBasketTest {
 
+  ShoppingBasket shoppingBasket1;
+
   @Before
   public void before () {
-    ShoppingBasket shoppingBasket = new ShoppingBasket();
+    shoppingBasket1 = new ShoppingBasket(123);
+  }
+
+
+  @Test
+  public void canGetAccountNumber() {
+    assertEquals(123, shoppingBasket1.getAccountNumber());
   }
 
 }
