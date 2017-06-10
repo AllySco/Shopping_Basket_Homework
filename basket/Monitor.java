@@ -3,9 +3,16 @@ import java.util.*;
 
 public class Monitor extends Product implements Productible {
 
-  public Monitor(String name, double cost) {
-    super(name, cost);
+  private int size;
 
+  public Monitor(String name, double cost, int size) {
+    super(name, cost);
+    this.size = size;
+
+  }
+
+  public int getMonitorSize() {
+    return this.size;
   }
 
   
