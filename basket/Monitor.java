@@ -5,7 +5,7 @@ public class Monitor extends Product implements Productible {
 
   private int size;
 
-  public Monitor(String name, double cost, int size) {
+  public Monitor(String name, int cost, int size) {
     super(name, cost);
     this.size = size;
 

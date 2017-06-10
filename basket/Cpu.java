@@ -5,7 +5,7 @@ public class Cpu extends Product implements Productible {
 
   private String type;
   
-  public Cpu(String name, double cost) {
+  public Cpu(String name, int cost, String type) {
     super(name, cost);
     this.type = type;
   }

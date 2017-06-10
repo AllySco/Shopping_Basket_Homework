@@ -4,9 +4,9 @@ import java.util.*;
 public class Product {
 
   private String name;
-  private double cost;
+  private int cost;
 
-  public Product(String name, double cost) {
+  public Product(String name, int cost) {
     this.name = name;
     this.cost = cost;
   }
@@ -15,7 +15,7 @@ public class Product {
     return this.name;
   }
 
-  public double getProductCost() {
+  public int getProductCost() {
     return this.cost;
   }
 

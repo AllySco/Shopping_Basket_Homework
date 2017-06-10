@@ -3,7 +3,7 @@ import java.util.*;
 
 public class GfxCard extends Product implements Productible {
 
-  public GfxCard(String name, double cost) {
+  public GfxCard(String name, int cost) {
     super(name, cost);
 
   }

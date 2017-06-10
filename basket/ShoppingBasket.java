@@ -5,8 +5,8 @@ public class ShoppingBasket {
 
  private int accountNumber;
  private ArrayList<Productible> products;
- private double totalCost;
- private double discountCost;
+ private int totalCost;
+ private int discountCost;
 
  public ShoppingBasket() {
   
