@@ -13,5 +13,4 @@ public class Cpu extends Product implements Productible {
   public String getCpuType() {
     return this.type;
   }
- 
 }

@@ -14,5 +14,4 @@ public class CaseTest {
   public void canGetCaseSizeType() {
     assertEquals("Full Tower", case1.getCaseSizeType());
   }
-  
 }

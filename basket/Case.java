@@ -13,7 +13,4 @@ public class Case extends Product implements Productible {
   public String getCaseSizeType() {
     return this.sizeType;
   }
-
-
- 
 }

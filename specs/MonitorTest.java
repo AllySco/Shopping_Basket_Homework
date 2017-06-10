@@ -6,7 +6,6 @@ public class MonitorTest {
 
   Monitor monitor1;
 
-
   @Before
   public void before() {
     monitor1 = new Monitor("BenQ", 250, 24);
@@ -16,7 +15,4 @@ public class MonitorTest {
   public void cangetMonitorSize() {
     assertEquals(24, monitor1.getMonitorSize());
   }
-
-
-
 }

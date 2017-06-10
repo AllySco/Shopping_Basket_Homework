@@ -2,17 +2,17 @@ import static org.junit.Assert.*;
 import org.junit.*;
 import basket.*;
 
-public class CpuTest {
+public class GfxCardTest {
 
-  Cpu cpu1;
+  GfxCard gfxCard1;
 
   @Before
   public void before() {
-    cpu1 = new Cpu("Intel", 200, "i5");
+    gfxCard1 = new GfxCard("Intel", 200, "Nvidia");
   }
 
   @Test
   public void canGetCpuType() {
-    assertEquals("i5", cpu1.getCpuType());
+    assertEquals("Nvidia", gfxCard1.getGfxCardBrand());
   }
 }
