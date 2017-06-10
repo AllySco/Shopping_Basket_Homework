@@ -11,7 +11,7 @@ public class ShoppingBasket {
   public ShoppingBasket(int accountNumber) {
 
     this.accountNumber = accountNumber;
-    this.products = products;
+    this.products = new ArrayList<Productible>();
     this.totalCost = totalCost;
     this.discountCost = discountCost;
   }
@@ -20,4 +20,7 @@ public class ShoppingBasket {
     return this.accountNumber;
   }
 
+  public int productCount() {
+    return this.products.size();
+  }
 }

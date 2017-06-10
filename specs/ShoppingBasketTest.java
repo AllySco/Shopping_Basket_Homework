@@ -9,6 +9,7 @@ public class ShoppingBasketTest {
   @Before
   public void before () {
     shoppingBasket1 = new ShoppingBasket(123);
+
   }
 
 
@@ -17,4 +18,8 @@ public class ShoppingBasketTest {
     assertEquals(123, shoppingBasket1.getAccountNumber());
   }
 
+  @Test
+  public void productListStartsEmpty() {
+    assertEquals(0, shoppingBasket1.productCount());
+  }
 }
