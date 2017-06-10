@@ -11,11 +11,11 @@ public class Product {
     this.cost = cost;
   }
 
-  public String getProductName(String name) {
+  public String getProductName() {
     return this.name;
   }
 
-  public double getProductCost(double cost) {
+  public double getProductCost() {
     return this.cost;
   }
 

@@ -14,7 +14,12 @@ public class ProductTest {
 
   @Test
   public void canGetProductName() {
-    assetEquals("NZXT", product1.getProductName());
+    assertEquals("NZXT", product1.getProductName());
+  }
+
+  @Test
+  public void canGetProductCost() {
+    assertEquals(150, product1.getProductCost());
   }
   
 }

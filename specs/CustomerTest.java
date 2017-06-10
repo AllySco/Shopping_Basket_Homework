@@ -1,20 +1,20 @@
-import static org.junit.Assert.*;
-import org.junit.*;
-import basket.*;
+// import static org.junit.Assert.*;
+// import org.junit.*;
+// import basket.*;
 
-public class CustomerTest {
+// public class CustomerTest {
 
-  Customer customer;
+//   Customer customer;
 
-  @Before
-  public void before() {
-    customer = new Customer("Dave");
-  }
+//   @Before
+//   public void before() {
+//     customer = new Customer("Dave");
+//   }
 
-  @Test
-  public void canGetName() {
-    assetEquals("Dave", customer.getName());
-  }
+//   @Test
+//   public void canGetName() {
+//     assetEquals("Dave", customer.getName());
+//   }
 
 
-}
+// }

@@ -7,12 +7,12 @@ public class CaseTest {
   Case case2;
   Case case3;
 
-  @Before
-  public void before() {
-    case1 = new Case("NZXT", 150);
-    case2 = new Case("Zalman", 120);
-    case3 = new Case("CoolerMaster", 180);
-  }
+  // @Before
+  // public void before() {
+  //   case1 = new Case("NZXT", 150);
+  //   case2 = new Case("Zalman", 120);
+  //   case3 = new Case("CoolerMaster", 180);
+  // }
 
 
   
