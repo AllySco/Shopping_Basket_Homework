@@ -4,9 +4,11 @@ import basket.*;
 
 public class CustomerTest {
 
+  Customer customer;
+
   @Before
   public void before() {
-    Customer customer = new Customer("Dave");
+    customer = new Customer("Dave");
   }
 
   @Test

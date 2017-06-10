@@ -14,9 +14,6 @@ public class CaseTest {
     case3 = new Case("CoolerMaster", 180);
   }
 
-  @Test
-  public void canGetName() {
-    assetEquals("Zalman", case2.getName());
-  }
+
   
 }

@@ -1,5 +1,4 @@
 package basket;
-package product_type;
 import java.util.*;
 
 public class ShoppingBasket {
@@ -12,7 +11,7 @@ public class ShoppingBasket {
  public ShoppingBasket() {
   
   this.accountNumber = accountNumber;
-  this.basket = basket;
+  this.products = products;
   this.totalCost = totalCost;
   this.discountCost = discountCost;
 }

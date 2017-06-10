@@ -15,9 +15,6 @@ public class MonitorTest {
     monitor3 = new Monitor("LG", 200);
   }
 
-  @Test
-  public void canGetName() {
-    assetEquals("Samsung", monitor2.getName());
-  }
+
 
 }

@@ -1,22 +1,12 @@
 package basket;
 import java.util.*;
 
-public class Monitor implements Productible {
+public class Monitor extends Product implements Productible {
 
-  private String name;
-  private double cost;
+  public Monitor(String name, double cost) {
+    super(name, cost);
 
-  public Case(String name, double cost) {
-    this.name = name;
-    this.cost = cost;
   }
 
-  public String getName(String name) {
-    return this.name;
-  }
-
-  public double getCost(double cost) {
-    return this.cost;
-  }
- 
+  
 }
