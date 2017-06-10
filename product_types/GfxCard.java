@@ -1,7 +1,7 @@
 package product_type;
 import java.util.*;
 
-public class Monitor implements Productible {
+public class GfxCard implements Productible {
 
  
 }
