@@ -27,4 +27,8 @@ public class ShoppingBasket {
   public void addProduct(Productible product) {
     this.products.add(product);
   }
+
+  public void clearBasket() {
+    this.products.clear();
+  }
 }

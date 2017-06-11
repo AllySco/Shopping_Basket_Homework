@@ -53,6 +53,16 @@ public class ShoppingBasketTest {
     assertEquals(1, shoppingBasket.productCount());
   }
 
+  @Test
+  public void canClearProductsFromBasket() {
+    shoppingBasket.addProduct(monitor1);
+    shoppingBasket.addProduct(cpu1);
+    shoppingBasket.addProduct(gfxCard1);
+    shoppingBasket.addProduct(case1);
+    shoppingBasket.clearBasket();
+    assertEquals(0, shoppingBasket.productCount());
+  }
+
 
 
 
