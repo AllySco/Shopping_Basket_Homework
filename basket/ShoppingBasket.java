@@ -10,7 +10,6 @@ public class ShoppingBasket {
 
     this.accountNumber = accountNumber;
     this.products = new ArrayList<>();
-
   }
 
   public int getAccountNumber() {
