@@ -34,4 +34,36 @@ public class ShoppingBasketTest {
     shoppingBasket.addProduct(case1);
     assertEquals(1, shoppingBasket.productCount());
   }
+
+  @Test
+  public void canAddCpuToBasket() {
+    shoppingBasket.addProduct(cpu1);
+    assertEquals(1, shoppingBasket.productCount());
+  }
+
+  @Test
+  public void canAddGfxCardToBasket() {
+    shoppingBasket.addProduct(gfxCard1);
+    assertEquals(1, shoppingBasket.productCount());
+  }
+
+  @Test
+  public void canAddMonitorToBasket() {
+    shoppingBasket.addProduct(monitor1);
+    assertEquals(1, shoppingBasket.productCount());
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
