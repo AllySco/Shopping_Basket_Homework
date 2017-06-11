@@ -26,4 +26,8 @@ public class Customer {
     this.loyaltyCard = true;
   }
 
+  public ShoppingBasket getShoppingBasket() {
+    return this.shoppingBasket;
+  }
+
 }

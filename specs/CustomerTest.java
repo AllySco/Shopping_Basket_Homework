@@ -28,5 +28,10 @@ public class CustomerTest {
     assertEquals(true, customer.getLoyaltyCard());
   }
 
+  @Test
+  public void customerHasBasket() {
+    assertNotNull(customer.getShoppingBasket());
+  }
+
 
 }
