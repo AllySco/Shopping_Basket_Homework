@@ -18,4 +18,12 @@ public class Customer {
     return this.name;
   }
 
+  public boolean getLoyaltyCard() {
+    return this.loyaltyCard;
+  }
+
+  public void setLoyaltyCard() {
+    this.loyaltyCard = true;
+  }
+
 }
