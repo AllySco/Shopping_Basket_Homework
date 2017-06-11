@@ -4,22 +4,34 @@ import basket.*;
 
 public class ShoppingBasketTest {
 
-  ShoppingBasket shoppingBasket1;
+  ShoppingBasket shoppingBasket;
+  Case case1;
+  Cpu cpu1;
+  GfxCard gfxCard1;
+  Monitor monitor1;
 
   @Before
   public void before () {
-    shoppingBasket1 = new ShoppingBasket(123);
-
+    shoppingBasket = new ShoppingBasket(123);
+    case1 = new Case("NZXT", 100, "Micro ATX");
+    cpu1 = new Cpu("Intel", 230, "i7");
+    gfxCard1 = new GfxCard("Geforce 1080", 450, "Nvidia");
+    monitor1 = new Monitor("BenQ", 150, 27);
   }
-
 
   @Test
   public void canGetAccountNumber() {
-    assertEquals(123, shoppingBasket1.getAccountNumber());
+    assertEquals(123, shoppingBasket.getAccountNumber());
   }
 
   @Test
   public void productListStartsEmpty() {
-    assertEquals(0, shoppingBasket1.productCount());
+    assertEquals(0, shoppingBasket.productCount());
+  }
+
+  @Test
+  public void canAddCaseToBasket() {
+    shoppingBasket.addProduct(case1);
+    assertEquals(1, shoppingBasket.productCount());
   }
 }
