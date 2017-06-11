@@ -63,6 +63,12 @@ public class ShoppingBasketTest {
     assertEquals(0, shoppingBasket.productCount());
   }
 
+  @Test
+  public void canRemoveProductFromBasket() {
+    shoppingBasket.removeProduct(gfxCard1);
+    assertEquals(0, shoppingBasket.productCount());
+  }
+
 
 
 
