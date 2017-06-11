@@ -68,18 +68,4 @@ public class ShoppingBasketTest {
     shoppingBasket.removeProduct(gfxCard1);
     assertEquals(0, shoppingBasket.productCount());
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

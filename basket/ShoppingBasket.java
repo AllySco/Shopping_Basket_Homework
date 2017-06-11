@@ -16,6 +16,10 @@ public class ShoppingBasket {
     return this.accountNumber;
   }
 
+  public ArrayList<Productible> getProducts() {
+    return this.products;
+  }
+
   public int productCount() {
     return this.products.size();
   }
@@ -31,4 +35,6 @@ public class ShoppingBasket {
   public void clearBasket() {
     this.products.clear();
   }
+
+
 }
