@@ -17,9 +17,6 @@ public class Checkout {
     for (Productible product : allProducts) {
       total += product.getProductCost();
     }
+    return total;
   }
-
-
-
-
 }
